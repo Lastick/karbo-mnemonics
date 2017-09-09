@@ -25,7 +25,7 @@ namespace Language
   class Polish: public Base
   {
   public:
-    Polish(): Base("Polish", std::vector<std::string>({
+    Polish(): Base("język polski", std::vector<std::string>({
         "abażur",
         "aborcja",
         "absurd",
@@ -761,7 +761,7 @@ namespace Language
         "obracać",
         "obrońca",
         "obrzęd",
-        "obróbka",
+        "obrót",
         "obręb",
         "obszar",
         "obsługa",
@@ -770,7 +770,7 @@ namespace Language
         "obyczaj",
         "obywatel",
         "obłęd",
-        "obrót",
+        "obłok",
         "oceniać",
         "ochota",
         "ochronny",
@@ -1658,3 +1658,5 @@ namespace Language
     }
   };
 }
+
+#endif
